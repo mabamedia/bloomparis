@@ -1,1 +1,36 @@
 @import "tailwindcss";
+
+@font-face {
+  font-family: 'Saans-Trial-Bold';
+  src: url('../fonts/Saans-TRIAL-Bold.otf') format('otf'), url('../fonts/Saans-TRIAL-Bold.ttf') format('ttf'), url('../fonts/Saans-TRIAL-Bold.woff') format('woff'), url('../fonts/Saans-TRIAL-Bold.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Saans-Trial-Heavy';
+  src: url('../fonts/Saans-TRIAL-Heavy.otf') format('otf'), url('../fonts/Saans-TRIAL-Heavy.ttf') format('ttf'), url('../fonts/Saans-TRIAL-Heavy.woff') format('woff'), url('../fonts/Saans-TRIAL-Heavy.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Saans-Trial-Light';
+  src: url('../fonts/Saans-TRIAL-Light.otf') format('otf'), url('../fonts/Saans-TRIAL-Light.ttf') format('ttf'), url('../fonts/Saans-TRIAL-Light.woff') format('woff'), url('../fonts/Saans-TRIAL-Light.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Saans-Trial-Medium';
+  src: url('../fonts/Saans-TRIAL-Medium.otf') format('otf'), url('../fonts/Saans-TRIAL-Medium.ttf') format('ttf'), url('../fonts/Saans-TRIAL-Medium.woff') format('woff'), url('../fonts/Saans-TRIAL-Medium.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Saans-Trial-Regular';
+  src: url('../fonts/Saans-TRIAL-Regular.otf') format('otf'), url('../fonts/Saans-TRIAL-Regular.ttf') format('ttf'), url('../fonts/Saans-TRIAL-Regular.woff') format('woff'), url('../fonts/Saans-TRIAL-Regular.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Saans-Trial-SemiBold';
+  src: url('../fonts/Saans-TRIAL-SemiBold.otf') format('otf'), url('../fonts/Saans-TRIAL-SemiBold.ttf') format('ttf'), url('../fonts/Saans-TRIAL-SemiBold.woff') format('woff'), url('../fonts/Saans-TRIAL-SemiBold.woff2') format('woff2');
+}
+
+body {
+  background-color: #e3e3eb;
+  font-family: 'Saans-Trial-Regular', sans-serif;
+}
